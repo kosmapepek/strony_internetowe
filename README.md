@@ -1,2 +1,2 @@
 # strony_internetowe
-Repozytorium zajęć ze stron u Gigantów Programowania
+Repozytorium zajęć ze stron u Gigantów Programowania.
