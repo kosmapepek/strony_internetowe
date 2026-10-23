@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#naglowek{
+    color: White;
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#naglowek h1{
+    text-transform: uppercase; 
+}
+
+#naglowek p{
+    font-size: 14px;
+    color: lightgray;
+    font-style: italic;
+}
+
+#baner{   
+    background-image: url("https://fastly.picsum.photos/id/903/1200/300.jpg?hmac=veQ75MiuamQdkne45O7wMWgH96Swlca9BEqvsCH5KbY");
+    padding: 40px;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+
+}
+
+.wpis{
+    background-color:rgb(45, 45, 45);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.autor{
+    text-align: left;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.data{
+    text-align: left;
+    font-size: 10px;
+    color: lightgray;
+}
+
+.tekst{
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+.reakcje{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
