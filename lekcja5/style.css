@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 15%);
+}
+
+.postcard {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  /* TODO: background sky gradient */
+  background: #74bad6;
+  background: linear-gradient(180deg, rgba(53, 186, 214, 1) 0%, rgba(53, 140, 186, 1) 50%, rgba(53, 127, 176, 1) 100%);
+}
+
+.sun {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  width: 80px;
+  height: 80px;
+  /* TODO: sun shape and glow */
+  border-radius: 50%;
+  box-shadow: 1px 1px 48px 30px hsla(63, 100%, 63%, 0.5);
+  /* TODO: sun color experiment */
+  background-color: hsl(63, 100%, 63%);
+}
+
+.hills {
+  position: absolute;
+  bottom: 30%;
+  left: -10%;
+  width: 120%;
+  height: 45%;
+  /* TODO: hills shape */
+  background: radial-gradient(ellipse 120% 60% at 50% 100%,
+      hsl(0, 0%, 73%),
+      hsl(120, 11%, 88%));
+  border-radius: 50% 50% 0 0 / 30% 50% 0 0;
+}
+
+.water {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 31%;
+  /* TODO: water color and transparency */
+  background: linear-gradient(180deg, hsla(210, 70%, 50%, 1),
+      hsla(210, 60%, 30%, 0.85));
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, serif;
+  /* TODO: text styling and shadow */
+  font-size: 2rem;
+  color: white;
+  /* TODO: text color experiment */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 20px hsl(178, 23%, 74%);
+}
